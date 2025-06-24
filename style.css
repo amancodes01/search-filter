@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.container{
+    margin:auto;
+    width:70vw;
+    /* background-color: red; */
+}
+.inputContainer{
+    width:100%;
+    /* position:fixed;
+    top:0px; */
+}
+input{
+    width:100%;
+    padding:10px;
+}
+
+.dataContainer{
+    width:100%;
+    /* background-color: yellow; */
+    display:flex;
+    height:250px;
+    gap:10px;
+    margin-top:10px;
+}
+
+.imageBox{
+    /* background-color: aqua; */
+    flex:1;
+    border:1px solid black;
+}
+.imageBox img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+.contentBox{
+    /* background-color: magenta; */
+    flex:3;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding:10px 10px;
+    border:1px solid black;
+}
+
+/* .contentBox h1{background-color: green;} */
+/* .contentBox p{background-color: orange;} */
+.contentBox button{
+    /* background-color: maroon; */
+    align-self:flex-end;
+    margin:5px 25px 0 0;
+}
